@@ -12,7 +12,7 @@ This document defines the Functional and Non-Functional Requirements for the Mar
 | FR-01 | The rover shall receive commands from Mission Control and execute valid commands. |
 | FR-02 | The rover shall report its current position, battery level, temperature, and communication status. |
 | FR-03 | The system shall reject invalid or unauthorized commands. |
-| FR-04 | The rover shall enter Safe Mode when a critical battery or thermal condition is detected. |
+| FR-04 |The rover shall enter Safe Mode within 3 seconds when battery temperature exceeds the critical threshold or battery capacity falls below the defined emergency level. |
 | FR-05 | Mission Control shall receive command execution status. |
 | FR-06 | All commands and critical rover events shall be recorded with timestamp and operator ID. |
 
