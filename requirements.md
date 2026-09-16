@@ -22,7 +22,7 @@ This document defines the Functional and Non-Functional Requirements for the Mar
 
 | ID | Requirement | Category |
 |----|-------------|----------|
-| NFR-01 | Only authenticated Mission Control operators shall be allowed to issue commands. | Security |
+| NFR-01 | The system shall require authenticated and role-authorized operators before accepting rover commands. | Security |
 | NFR-02 | The system shall continue operating despite temporary communication interruptions. | Reliability / Availability |
 | NFR-03 | Command processing should normally complete within 5 seconds after a command is received by the rover. | Performance |
 | NFR-04 | The system shall support at least 20 simultaneously connected rovers. | Scalability |
