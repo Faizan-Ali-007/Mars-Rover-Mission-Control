@@ -25,7 +25,7 @@ This document defines the Functional and Non-Functional Requirements for the Mar
 | NFR-01 | Only authenticated Mission Control operators shall be allowed to issue commands. | Security |
 | NFR-02 | The system shall continue operating despite temporary communication interruptions. | Reliability / Availability |
 | NFR-03 | Command processing should normally complete within 5 seconds after a command is received by the rover. | Performance |
-| NFR-04 | The system should support communication with multiple rovers simultaneously. | Scalability |
+| NFR-04 | The system shall support at least 20 simultaneously connected rovers. | Scalability |
 
 ---
 
